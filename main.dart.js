@@ -25748,7 +25748,7 @@ s=p}while(true)switch(s){case 0:c=A.b([],t.eM)
 p=4
 h=t.N
 g=t.z
-n=A.akF("http","127.0.0.1:5000","/user/role",A.aC(["user_id",B.h.k(a)],h,g))
+n=A.akF("http","52.70.187.39:80","/user/role",A.aC(["user_id",B.h.k(a)],h,g))
 s=7
 return A.P(A.apZ(n),$async$a9f)
 case 7:m=a1
@@ -25807,7 +25807,7 @@ aFV(a){var s=0,r=A.O(t.uJ),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$aa9=A.K(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:e=A.b([],t.wo)
 p=4
-n=A.akF("http","127.0.0.1:5000","/search",A.aC(["querry",a],t.N,t.z))
+n=A.akF("http","52.70.187.39:80","/search",A.aC(["querry",a],t.N,t.z))
 s=7
 return A.P(A.apZ(n),$async$aa9)
 case 7:m=c
@@ -25825,7 +25825,7 @@ break
 case 4:p=3
 d=o
 j=A.ak(d)
-A.hJ(A.akF("http","127.0.0.1:5000","/search",A.aC(["querry",a],t.N,t.z)))
+A.hJ(A.akF("http","52.70.187.39:80","/search",A.aC(["querry",a],t.N,t.z)))
 A.hJ(j)
 s=6
 break
@@ -25844,7 +25844,7 @@ s=p}while(true)switch(s){case 0:A.hJ(a)
 p=4
 i=t.N
 h=t.z
-n=A.akF("http","127.0.0.1:5000","/user",A.aC(["fb_id",a],i,h))
+n=A.akF("http","52.70.187.39:80","/user",A.aC(["fb_id",a],i,h))
 s=7
 return A.P(A.apZ(n),$async$ad6)
 case 7:m=c
